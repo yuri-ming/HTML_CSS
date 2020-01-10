@@ -10,3 +10,9 @@
 6. li: 리스트 만들기
 7. ul: unordered list, li 항목들이 어디부터 어디까지 서로 연관된 항목인지 경계지음 
 8. ol: ordered list, 자동 번호 매김
+***
+9. title: 웹페이지 제목 지정
+10. head: 본문 설명
+11. body: 본문
+12. html: body와 head를 감쌈
+13. a: 링크걸기
