@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<title>web1-html</title>
+<meta charset="utf-8">
+
+
+
+<style>
+  body{
+    margin:0;
+
+  }
+ a {
+ color:black;
+ text-decoration: none;
+}
+/*id값이 active인 태그를 가르키는 선택자(id선택자)
+id선택자는 중복될 수 없음, id선택자를 통해 예외를 둠*/
+#active{
+  color:red;
+}
+/*클래스 값이 saw인 태그를 가르키는 선택자(클래스 선택자)*/
+.saw{
+  color:gray;
+}
+/*태그 선택자*/
+ h1{
+  font-size:45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+
+}
+ol{
+  border-right:1px solid gray;
+  width:100px;
+  margin:0;
+  padding:20px;
+
+}
+</style>
+
+</head>
+
+<body>
+  <h1>WEB</h1>
+
+<ol>
+  <li><a href ="ht.html" class="saw">HTML</a></li>
+  <li><a href ="cs.html" class="saw" id ="active"=>CSS</a></li>
+  <li><a href= "js.html">JavaScript</a></li>
+</ol>
+<!--
+<ol>
+  <li><font color="red">HTML</font> </li>
+  <li><font color="red">CSS</font></li>
+  <li><font color="red">JavaScript</font></li>
+</ol>
+-->
+<h2>CSS</h2>
+<p>
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+</p>
+
+</body>
+</html>
